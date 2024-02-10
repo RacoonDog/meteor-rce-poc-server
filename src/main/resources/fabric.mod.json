@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-rce-poc-server",
+  "version": "${version}",
+  "name": "Meteor RCE Proof of Concept Server",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Admin/meteor-rce-poc-server"
+  },
+  "license": "MIT",
+  "icon": "assets/meteor-rce-poc-server/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "io.github.racoondog.meteor.MeteorRCEProofOfConceptServer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
